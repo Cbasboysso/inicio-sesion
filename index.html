@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="js.js">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Inicio Sesion</title>
+</head>
+<body>
+<div id="index">
+
+    <label id="lbl"><p id="centro">  Bienvenido Al inicio de Sesion Programado.</p>
+    </label>
+    <form >
+    
+    <br>
+    <input type="text" name="Usuario" id="Usuario1" placeholder=" Ingrese Su Usuario" >
+    </p><br>
+
+        <br><input type="password" name="pass" id="password1" size="35" placeholder="INGRESE SU CONSTRASEÑA" >
+        <br>
+        <br>
+        <button type="button" class="btn btn-outline-dark" onclick="capturar()">Ingresar</button>
+    </p>
+</form>
+</div>
+<div >
+<select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+    <option selected>Seleccione segun Corresponda</option>
+    <option value="1">Profesor</option>
+    <option value="2">Alumno</option>
+    <option value="3">Invitado</option>
+</select>
+</div>
+    <script>
+        for ( x in busuario ){
+            return x;
+        }
+    </script>
+
+    
+<script src="./js.js">
+</script>   
+</body>
+</html>

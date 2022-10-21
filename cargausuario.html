@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="js.js">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Alta Usuario</title>
+</head>
+<body>
+<div id="altausuario">
+    <h1><strong>Alta de Usuario</strong></h1>
+    <br><br><br>
+    <form >
+        
+        
+                <strong>Nombre</strong><input type="text" id="Nombre1">
+                
+            <br><br>
+            <strong>Apellido</strong><input type="text" id="Apellido2">
+            <br><br>
+                <strong>Usuario</strong><input type="text" id="usuarion">
+                <br><br>
+        
+            <strong>Contraseña</strong><input type="text" id="passwordn">
+        
+        <br>
+        <br>
+        <h2>Seleccione Nacionalidad</h2>
+        <div class="form-check">
+            
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">
+            Argentina
+            </label>
+        </div><div class="form-check">
+            
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">
+            Uruguay
+            </label>
+        </div>
+        <div class="form-check">
+            
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">
+            Brazil
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+            <label class="form-check-label" for="flexRadioDefault2">
+            Chile
+            </label>
+        </div>
+
+            <button type="button" class="btn btn-outline-dark" onclick="cargar()">Cargar Datos</button>
+    </form>
+    <script src="./js.js"></script>
+</div>
+</body>
+</html>
